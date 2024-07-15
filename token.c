@@ -1,4 +1,7 @@
-//calculation of amount to pay in tokens
+/*author: Priscilla
+registration: BSE-01-0051/2024
+description:calculation of amount to pay in tokens
+*/
 #include <stdio.h>
 int main() {
     int customer_id, unit_consumed;
@@ -32,7 +35,7 @@ if(total_pay>400){
     printf("Customer ID: %d\n", customer_id);
     printf("Customer Name: %s\n", customer_name);
     printf("Units Consumed: %d\n", unit_consumed);
-    printf("Charges per unit: %.2f\n", charges);
+    printf("Charges per unit:ksh %.2f\n", charges);
     printf("Total pay: %.2f\n", total_pay);
     return 0;
 }
